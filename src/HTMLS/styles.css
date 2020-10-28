@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #00000e;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font: 400 16px 'Monteserat', sans-serif;
+
+    width: 100vw;
+    height: 100vh;
+}
+
+fieldset {
+    border: none;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    color: #fff;
+    border: 1px solid #cecece;
+    border-radius: 8px;
+    width: 25rem;
+}
+
+form fieldset {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 5px 10px 0;
+}
+
+form fieldset input {
+    border: none;
+    border-radius: 8px;
+    width: 200px;
+    height: 30px;
+}
+
+form fieldset ::placeholder{
+    padding: 10px;
+    color: #cecece;
+    opacity: 1;
+
+    text-align: center;
+}
+
+form fieldset input + label {
+    margin-top: 30px;
+}
+
+form fieldset label + input {
+    margin-top: 1.0rem;
+}
+
+form label {
+    text-transform: capitalize;
+    text-align: center;
+    margin: 10px;
+}
+
+form button {
+    width: 200px;
+    height: 30px;
+    border-radius: 8px;
+    border: none;
+
+    margin-bottom: 10px;
+}
+
